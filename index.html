@@ -9,6 +9,7 @@
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+  position: relative;
 }
 
 
@@ -72,7 +73,7 @@ body {
 
  .caption {
     font-size: 20px;
-    color: white; 
+    color: white;
     text-align: center;
     background-color: #506080;
     width: 230px;
@@ -90,9 +91,10 @@ body {
 .page-bg {
     background-color: #ffccff;
 }
+
 </style>
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 <div class="container page-bg">
       <div class="header">
         <nav class=" navbar navbar-inverse navbar-fixed-top">
@@ -101,7 +103,7 @@ body {
       <a class="navbar-brand" href="#">&emsp;&emsp;&emsp;&emsp;Srijan Anand</a>
     </div>
     <ul class="nav navbar-nav pull-right">
-      <li class="active"><a href="#section1">About</a></li>
+      <li><a href="#section1">About</a></li>
       <li><a href="#section2">Portfolio</a></li>
       <li><a href="#section3">Contact</a></li>
     </ul>
@@ -118,12 +120,12 @@ body {
         <p> I am a Full Stack Developer and a Data Scientist and I work on Data Science and Web Development through applications of Machine
 Learning and Artificial Intelligence</p>
           <br><br>
-          </div>   
+          </div>
         <img src="https://avatars0.githubusercontent.com/u/26723655?v=4&u=c2271dbe848c086f45b58b0c864d6b8ed76d1737&s=400" class='img-responsive col-sm-4 img-circle'>
         </div>
         </div>
-      
-      
+
+
       <div class="jumbotron" id='section2'>
         <h1 class='white-box text-center'>Portfolio</h1>
         <div class='row'>
@@ -147,9 +149,9 @@ Learning and Artificial Intelligence</p>
       </div>
       </div>
       </div>
-        
-      
-        
+
+
+
         <div class="jumbotron" id='section3'>
         <h1 class='white-box text-center'>Contact</h1><br><br>
           <a href='https://www.facebook.com/profile.php?id=100000900711134' class='btn btn-primary btn-lg'>Facebook</a>&emsp;&emsp;&emsp;&emsp;
@@ -157,7 +159,7 @@ Learning and Artificial Intelligence</p>
           <a href='https://www.linkedin.com/in/srijan-anand/' class='btn btn-info btn-lg'>LinkedIN</a>&emsp;&emsp;&emsp;&emsp;
           <a href='srijannnd@gmail.com' class='btn btn-danger btn-lg'>srijannnd@gmail.com</a>
       </div>
-      
+
 
       <footer class="footer">
         <p>&copy; 2017 Northern India Engineering College</p>
