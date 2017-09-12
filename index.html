@@ -10,21 +10,29 @@
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 <div class="container page-bg">
-      <div class="header">
+
+      <div class="header container">
         <nav class=" navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
       <a class="navbar-brand" href="#">&emsp;&emsp;&emsp;&emsp;Srijan Anand</a>
     </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
     <ul class="nav navbar-nav pull-right">
       <li><a href="#section1">About</a></li>
       <li><a href="#section2">Portfolio</a></li>
       <li><a href="#section3">Contact</a></li>
+
     </ul>
+      </div>
   </div>
 </nav>
       </div>
-
       <div class="jumbotron" id='section1'>
         <div class="row">
         <div class='col-xs-8 white-box'>
@@ -35,7 +43,7 @@
 Learning and Artificial Intelligence</p>
           <br><br>
           </div>
-        <img src="https://avatars0.githubusercontent.com/u/26723655?v=4&u=c2271dbe848c086f45b58b0c864d6b8ed76d1737&s=400" class='img-responsive col-xs-4 img-circle'>
+        <img src="https://scontent.fdel8-1.fna.fbcdn.net/v/t1.0-9/17264839_1592200447486630_6616191137733513077_n.jpg?oh=cee4d231555ae087496bb0199c4a708f&oe=5A4FCD42" class='img-responsive col-xs-4 img-circle'>
         </div>
         </div>
 
@@ -68,17 +76,18 @@ Learning and Artificial Intelligence</p>
 
         <div class="jumbotron" id='section3'>
         <h1 class='white-box text-center'>Contact</h1><br><br>
-          <a href='https://www.facebook.com/profile.php?id=100000900711134' class='btn btn-primary btn-lg'>Facebook</a>&emsp;&emsp;&emsp;&emsp;
-          <a href='https://github.com/srijannnd' class='btn btn-success btn-lg'>Github</a>&emsp;&emsp;&emsp;&emsp;
-          <a href='https://www.linkedin.com/in/srijan-anand/' class='btn btn-info btn-lg'>LinkedIN</a>&emsp;&emsp;&emsp;&emsp;
-          <a href='srijannnd@gmail.com' class='btn btn-danger btn-lg'>srijannnd@gmail.com</a>
+          <div class="container row">
+           <a href='https://www.facebook.com/profile.php?id=100000900711134' class='btn btn-primary col-xs-12  col-sm-6 col-md-3'>Facebook</a>
+          <a href='https://github.com/srijannnd' class='btn btn-success col-xs-12 col-sm-6 col-md-3'>Github</a>
+          <a href='https://www.linkedin.com/in/srijan-anand/' class='btn btn-info col-xs-12 col-sm-6 col-md-3'>LinkedIN</a>
+          <a href='srijannnd@gmail.com' class='btn btn-danger col-xs-12 col-sm-6 col-md-3'>Gmail</a>
+              </div>
       </div>
 
 
       <footer class="footer">
         <p>&copy; 2017 Northern India Engineering College</p>
       </footer>
-
-    </div>
+</div>
     </body>
     </html>
