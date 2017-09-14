@@ -80,13 +80,17 @@ body {
   background-color: #d9e6f2;
   border-radius: 10px;
   border: 2px solid;
+  font-family: 'Alegreya', serif;
+  color: #000035;
 }
 .page-bg {
     background-color: #6984b0;
 }
 
 .navbar-color {
-    background-color: purple;
+    background-color: #000035;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5em;
 }
 
 
@@ -100,5 +104,5 @@ body {
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
     color: #959d95;
-    background-color: #222;
+    background-color: #000035;
 }
